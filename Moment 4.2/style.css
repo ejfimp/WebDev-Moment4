@@ -1,0 +1,44 @@
+body {
+  text-align: center;
+  background-color: #000000;
+}
+
+#button-box {
+  background: rgb(150, 238, 212);
+  top: 0;
+  left: 0px;
+  position: absolute;
+  width: 300px;
+  height: 50px;
+}
+#change-place-button,
+#reset-button {
+  margin: 10px 20px;
+  height: 30px;
+  width: 100px;
+}
+#text-box,
+#picture-box {
+  width: 150px;
+  height: 300px;
+  top: 50px;
+  left: 0;
+  position: absolute;
+}
+#text-box {
+  background-color: rgb(255, 108, 108);
+}
+#picture-box {
+  background-color: rgb(253, 255, 113);
+  left: 150px;
+}
+img {
+  height: 90px;
+  width: 90px;
+  margin-top: 90px;
+}
+p {
+  text-align: left;
+  font-size: 15px;
+  margin: 10px;
+}

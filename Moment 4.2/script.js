@@ -1,0 +1,22 @@
+$(document).ready(function(){
+    $("#change-place-button").click(function(){
+        $("#text-box").slideUp("slow",function(){
+            $(this).css({"left":"150px"});
+            $(this).slideDown("slow");
+        });
+        $("#picture-box").slideUp("slow",function(){
+            $(this).css({"left":"0px"});
+            $(this).slideDown("slow");
+        });
+    })
+    $("#reset-button").click(function(){
+        $("#text-box").slideUp("slow",function(){
+            $(this).css({"left":"0px"});
+            $(this).slideDown("slow");
+        });
+        $("#picture-box").slideUp("slow",function(){
+            $(this).css({"left":"150px"});
+            $(this).slideDown("slow");
+        });
+    })
+})
